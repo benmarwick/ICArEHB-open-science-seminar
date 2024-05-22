@@ -70,7 +70,6 @@ RUN R -e "install.packages(c(                    \
                               install.packages('c14bazAAR',         \
                               repos = c(ropensci = 'https://ropensci.r-universe.dev'));                \
                               # github installations                \
-                              devtools::install_github('benmarwick/ktc11');                           \
                               devtools::install_github('mikemeredith/BEST');                          \
                               devtools::install_github('achetverikov/apastats', subdir = 'apastats'); \
                               devtools::install_github(c('YuLab-SMU/ggtree',                          \
@@ -79,10 +78,10 @@ RUN R -e "install.packages(c(                    \
 
 # --- Metadata ---
 LABEL maintainer = "Ben Marwick <bmarwick@uw.edu>"  \
-  org.opencontainers.image.description="Dockerfile for the class ARCHY 488 Lithic Technology Lab" \
+  org.opencontainers.image.description="Dockerfile for the ICArEHB open science seminar" \
   org.opencontainers.image.created="2022-11" \
   org.opencontainers.image.authors="Ben Marwick" \
-  org.opencontainers.image.url="https://github.com/benmarwick/ARCHY-488-Lithic-Technology-Lab/blob/master/Dockerfile" \
-  org.opencontainers.image.documentation="https://github.com/benmarwick/ARCHY-488-Lithic-Technology-Lab/" \
+  org.opencontainers.image.url="https://github.com/benmarwick/ICArEHB-open-science-seminar/blob/master/Dockerfile" \
+  org.opencontainers.image.documentation="https://github.com/benmarwick/ICArEHB-open-science-seminar" \
   org.opencontainers.image.licenses="Apache-2.0" \
   org.label-schema.description="Reproducible workflow image (license: Apache 2.0)"
