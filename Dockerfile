@@ -39,7 +39,6 @@ RUN R -e "install.packages(c(                    \
                              'performance',      \
                              'FSA',              \
                              'infer',            \
-                             'rjags',            \
                              # mapping and GIS   \
                              'rnaturalearth',    \
                              'rnaturalearthdata',\
@@ -70,12 +69,8 @@ RUN R -e "install.packages(c(                    \
                               install.packages('c14bazAAR',         \
                               repos = c(ropensci = 'https://ropensci.r-universe.dev'));                \
                               # github installations                \
-                              devtools::install_github(c('mikemeredith/BEST',  \
-                                                         'benmarwick/rrtools'));                          \
-                              devtools::install_github('achetverikov/apastats', subdir = 'apastats'); \
-                              devtools::install_github(c('YuLab-SMU/ggtree',                          \
-                                                         'YuLab-SMU/ggtreeExtra',                     \
-                                                         'YuLab-SMU/treeio'))"
+                              devtools::install_github('benmarwick/rrtools');                          \
+                              devtools::install_github('achetverikov/apastats', subdir = 'apastats')"
 
 # --- Metadata ---
 LABEL maintainer = "Ben Marwick <bmarwick@uw.edu>"  \
