@@ -40,16 +40,16 @@ RUN R -e "install.packages(c(                    \
                              'FSA',              \
                              'infer',            \
                              # mapping and GIS   \
-                             'rnaturalearth',    \
-                             'rnaturalearthdata',\
-                             'sf',               \
-                             'rgeos',            \
-                             'maps',             \
-                             'raster',           \
-                             'terra',            \
-                             'spatstat',         \
-                             'maptools',         \
-                             'measurements',     \
+                            # 'rnaturalearth',    \
+                            # 'rnaturalearthdata',\
+                            # 'sf',               \
+                            # 'rgeos',            \
+                            # 'maps',             \
+                            # 'raster',           \
+                            # 'terra',            \
+                            # 'spatstat',         \
+                            # 'maptools',         \
+                            # 'measurements',     \
                              # palaeoecology     \
                              'aqp',              \
                              'tidypaleo',        \
