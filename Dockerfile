@@ -70,7 +70,8 @@ RUN R -e "install.packages(c(                    \
                               install.packages('c14bazAAR',         \
                               repos = c(ropensci = 'https://ropensci.r-universe.dev'));                \
                               # github installations                \
-                              devtools::install_github('mikemeredith/BEST');                          \
+                              devtools::install_github(c('mikemeredith/BEST',
+                              'benmarwick/rrtools'));                          \
                               devtools::install_github('achetverikov/apastats', subdir = 'apastats'); \
                               devtools::install_github(c('YuLab-SMU/ggtree',                          \
                                                          'YuLab-SMU/ggtreeExtra',                     \
